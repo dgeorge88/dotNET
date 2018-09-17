@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ValidationAjax", "ValidationAjax\", "{1B6C1123-A9D0-42ED-B6C5-13867E528DCB}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_47024"
+		Debug.AspNetCompiler.PhysicalPath = "ValidationAjax\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_47024\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_47024"
+		Release.AspNetCompiler.PhysicalPath = "ValidationAjax\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_47024\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "47024"
+		SlnRelativePath = "ValidationAjax\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B6C1123-A9D0-42ED-B6C5-13867E528DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B6C1123-A9D0-42ED-B6C5-13867E528DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

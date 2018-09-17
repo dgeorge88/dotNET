@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Project" Class="ProjectDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Project.mdf;Initial Catalog=Project;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="ProjectConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.cdCollection" Member="cdCollections">
+    <Type Name="cdCollection">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Artist" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="Year" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Genre" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
